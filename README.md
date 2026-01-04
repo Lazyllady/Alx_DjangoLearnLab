@@ -1,57 +1,35 @@
 # Expense Tracker API
 
-A backend REST API built with Django and Django REST Framework for tracking personal expenses.
+## Author
+Rahel Getachew
 
-This project is developed as part of the **ALX Backend Engineering Capstone Project**.
-
----
+## Project Description
+This is a backend Expense Tracker API built with Django and Django REST Framework.
+It allows users to manage expense categories and track daily expenses.
 
 ## Features
+- User authentication
+- Create, read, update, delete categories
+- Create, read, update, delete expenses
+- Admin dashboard for managing data
+- RESTful API endpoints
 
-- User authentication (Token-based)
-- Create, update, delete expense categories
-- Add and manage expenses
-- View expenses per user
-- Secure endpoints using authentication and permissions
-
----
-
-## Tech Stack
-
+## Technologies Used
 - Python
 - Django
 - Django REST Framework
-- SQLite (development database)
+- SQLite
 
----
+## API Endpoints
+- /api/categories/
+- /api/expenses/
 
-## Project Structure
+## Setup Instructions
+1. Clone the repository
+2. Create and activate a virtual environment
+3. Install dependencies
+4. Run migrations
+5. Start the development server
 
-# Expense Tracker API
-
-A backend REST API built with Django and Django REST Framework for tracking personal expenses.
-
-This project is developed as part of the **ALX Backend Engineering Capstone Project**.
-
----
-
-## Features
-
-- User authentication (Token-based)
-- Create, update, delete expense categories
-- Add and manage expenses
-- View expenses per user
-- Secure endpoints using authentication and permissions
-
----
-
-## Tech Stack
-
-- Python
-- Django
-- Django REST Framework
-- SQLite (development database)
-
----
-
-## Project Structure
+## Status
+Capstone project – Backend
